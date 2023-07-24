@@ -64,7 +64,6 @@ header {
 	display: flex;
 	justify-content: space-between;
     align-items: center;
-
 }
 
 .top_buttons {
@@ -155,4 +154,107 @@ header {
   background-color: none;
   border-radius: 50%;
   border: 8px solid #cccccc;
+}
+
+.page1 {
+    height: 600;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.title2 {
+    color: #000;
+    font-size: 45px;
+    font-style: bold;
+    width: 522px;
+    line-height: normal; 
+    padding-top: 127px;
+}
+
+.text2 {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 51px;
+}
+
+.page2 {
+    height: 491;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    gap: 51px;
+}
+
+.page2_item {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    width: 370px;
+    height: 291px;
+}
+
+.page2_header_item {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.page2_text_item {
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+
+.page2-link {
+    color: #000;
+    font-size: 11px;
+    font-style: bold;
+    line-height: 150%; /* 16.5px */
+}
+
+.page3 {
+    height: 919;
+}
+
+.page3_header {
+     text-align: center;
+     padding-top: 92px;
+}
+
+.header3 {
+    color: #000;
+    font-size: 32px;
+    font-style: bold;
+    line-height: normal;
+}
+
+.subheader3 {
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    width: 682px;
+    padding-top: 19px;
+}
+
+.page3_content {
+    display: flex;
+    height: 549;
+    justify-content: space-between;
+}
+
+.page3_item {
+     width: 370px;
+    height: 291px;
 }
