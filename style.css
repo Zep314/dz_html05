@@ -10,7 +10,6 @@ body {
 	scroll-behavior: smooth;
 	background: #ffffff;
 	font-family: 'Open Sans', sans-serif;
-	/* font-family: 'Gilroy-Medium'; */
 	font-style: normal;
 	font-weight: 400;
     color:#888888;
@@ -225,11 +224,15 @@ header {
 
 .page3 {
     height: 919;
+    align-items: center;
 }
 
 .page3_header {
      text-align: center;
      padding-top: 92px;
+     align-items: center;
+     width: 682px;
+
 }
 
 .header3 {
@@ -239,13 +242,29 @@ header {
     line-height: normal;
 }
 
-.subheader3 {
+/* .subheader3 {
     color: #666;
-    text-align: center;
+
     font-size: 14px;
     font-style: normal;
     width: 682px;
     padding-top: 19px;
+} */
+
+.text3 {
+    /* text-align: center;
+    color: #666;
+
+    font-size: 14px;
+    font-style: normal;
+    width: 682px;
+    padding-top: 19px; */
+
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+
 }
 
 .page3_content {
