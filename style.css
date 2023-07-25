@@ -23,6 +23,7 @@ img {
 .container {
 	width: 1200px;
 	margin: 0 auto;
+    overflow: hidden;
 }
 
 header {
@@ -542,7 +543,63 @@ header {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    gap: 20px;
-    width: 2000px;
+    gap: 10px;
+    width: 1830px;
+    padding-top: 80px;
+    transform: translate( -310px, 0px);
+}
+
+.page9_list_item {
+    text-align: center;
+    width: 450px;
+    border: 1px solid #eee;
+    padding: 25px 10px 25px 10px;
+}
+
+.page9_img {
+    border-radius: 55px 55px 55px 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.page9_item_name {
+    text-align: center;
+}
+
+.page9_name {
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    font-style: bold;
+    line-height: 150%; /* 19.5px */
+    padding-top: 10px;
+}
+
+.page9_text {
+    color: #888;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    padding-top: 10px;
+}
+
+.page10_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page10_item {
+    padding: 10px 15px 10px 15px;
+    display: flex;
+   
+    align-content: center;
     
+}
+
+.page10_item_content {
+    padding-top: 80px;
 }
